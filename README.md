@@ -127,18 +127,3 @@ DELETE /api/notes/{id}
 ![Empty List](https://github.com/user-attachments/assets/78a33fd8-f7d8-4546-9d44-bba51168f8ae)
 ![List Berisi](https://github.com/user-attachments/assets/95d5c936-7f24-40cf-ba2e-5c17b8a506cd)
 
-
-## 📞 Kontak dan Bantuan
-
-Jika mengalami masalah atau memiliki pertanyaan, silakan hubungi:
-
-- **GitHub:** [OliverNathann](https://github.com/OliverNathann)
-- **Email:** example@email.com
-- **Diskusi & Isu:** [GitHub Issues](https://github.com/OliverNathann/astrapay-spring-boot-external/issues)
-
----
-
-## 🎉 Terima Kasih! 🎉
-
-Terima kasih telah menggunakan **Astrapay Spring Boot Backend**! Jika proyek ini bermanfaat, jangan lupa untuk memberikan **⭐ Star** di repository ini. 🚀
-
