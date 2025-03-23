@@ -15,29 +15,6 @@ cd astrapay-spring-boot-external
 
 ---
 
-## 🔧 Konfigurasi Database
-
-Backend ini menggunakan **MySQL** sebagai database. Pastikan MySQL sudah terinstal dan jalankan perintah berikut untuk membuat database:
-
-```sql
-CREATE DATABASE astrapay_db;
-```
-
-Selanjutnya, ubah konfigurasi database di file **`application.properties`** yang ada di folder `src/main/resources/`:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/astrapay_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-> **Catatan:** Gantilah `yourpassword` dengan password MySQL Anda.
-
----
 
 ## 🚀 Menjalankan Backend
 
@@ -113,9 +90,7 @@ DELETE /api/notes/{id}
 
 ## 🛠 Teknologi yang Digunakan
 
-✅ **Spring Boot** - Framework utama backend  
-✅ **Spring Data JPA** - ORM untuk database  
-✅ **MySQL** - Database utama  
+✅ **Spring Boot** - Framework utama backend 
 ✅ **Maven** - Dependency management  
 ✅ **Lombok** - Mengurangi boilerplate code  
 
